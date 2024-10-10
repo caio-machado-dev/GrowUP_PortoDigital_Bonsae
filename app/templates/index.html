@@ -15,6 +15,7 @@
       type="imagex/png"
       href="{{url_for('static', filename = '/images/logo_bonsae.png')}}"
     />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   </head>
   <body style="background-color: #1461d3">
     <form action="/" method="POST" enctype="multipart/form-data">
@@ -244,11 +245,12 @@
                 type="file"
                 name="file"
                 class="form-control me-2 w-auto"
-                id="inputGroupFile04"
+                id="inputFile"
                 aria-describedby="inputGroupFileAddon04"
                 aria-label="Upload"
                 accept=".pdf, .docx, .txt"
                 style="background-color: #1461d3; color: white;"
+                onchange="validadorArquivo()"
               />
               <button
                 class="btn btn-outline-secondary d-flex align-items-center justify-content-center"
@@ -275,6 +277,7 @@
     ></script>
     <script src="{{url_for('static', filename = '/javascript/adicionarFundamentacao.js')}}"></script>
     <script src="{{url_for('static', filename = '/javascript/limparCampos.js')}}"></script>
+    <script src="{{url_for('static', filename = '/javascript/validacaoArquivos.js')}}"></script>
     <script>
       const addIconUrl = "{{ url_for('static', filename='/icons/plus.svg') }}";
       const removeIconUrl = "{{ url_for('static', filename='/icons/remove.svg') }}";
