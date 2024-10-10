@@ -21,13 +21,11 @@ git clone https://github.com/caio-machado-dev/GrowUP_PortoDigital_Bonsae.git
 
 ```
 pip install
-
 ```
 ## Passo 03: Executar o código na pasta **/app**
 
 ```
 python.exe /.main.py
-
 ```
 
 ## Passo 04: Acessar o local host da biblioteca Flask
