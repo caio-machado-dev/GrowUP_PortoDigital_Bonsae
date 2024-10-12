@@ -17,22 +17,24 @@ Antes de começar, verifique se você tem os seguintes pré-requisitos instalado
 ```
 git clone https://github.com/caio-machado-dev/GrowUP_PortoDigital_Bonsae.git
 ```
-## Passo 02: Instalar as bibliotecas
+## Passo 02: Entrar na pasta do Projeto
 
 ```
-pip install
+cd GrowUP_PortoDigital_Bonsae
 ```
-## Passo 03: Executar o código na pasta **/app**
-
-```
-python.exe /.main.py
-```
-
-## Passo 04: Acessar o local host da biblioteca Flask
-
-*Esse link será disponibilizado no terminal quando executar o código utilizando o Flask*
+## Passo 03: Criar um ambiente virtual
 
 ```
-http://localhost:5000
+1° Comando: python -m venv .venv
+2° Comando: .venv\Scripts\activate
+```
 
+Caso aconteça um erro ao executar o comando `.venv\Scripts\activate`, você pode habilitar a execução de scripts PowerShell com o comando `Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass` e tentar novamente.
+
+## Passo 04: Instalar as dependências do Projeto
+
+Com o ambiente virtual ativado, instale as dependências
+
+```
+pip install -r requirements.txt
 ```
