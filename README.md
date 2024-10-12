@@ -25,8 +25,8 @@ cd GrowUP_PortoDigital_Bonsae
 ## Passo 03: Criar um ambiente virtual
 
 ```
-1° Comando: python -m venv .venv
-2° Comando: .venv\Scripts\activate
+python -m venv .venv
+.venv\Scripts\activate
 ```
 
 Caso aconteça um erro ao executar o comando `.venv\Scripts\activate`, você pode habilitar a execução de scripts PowerShell com o comando `Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass` e tentar novamente.
