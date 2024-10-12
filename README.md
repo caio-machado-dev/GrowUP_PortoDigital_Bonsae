@@ -17,23 +17,30 @@ Antes de começar, verifique se você tem os seguintes pré-requisitos instalado
 ```
 git clone https://github.com/caio-machado-dev/GrowUP_PortoDigital_Bonsae.git
 ```
+
 ## Passo 02: Entrar na pasta do Projeto
 
 ```
 cd GrowUP_PortoDigital_Bonsae
 ```
+
 ## Passo 03: Criar um ambiente virtual
 
 ```
 python -m venv .venv
+```
+
+## Passo 04: Ativar o ambiente virtual
+
+```
 .venv\Scripts\activate
 ```
 
 Caso aconteça um erro ao executar o comando `.venv\Scripts\activate`, você pode habilitar a execução de scripts PowerShell com o comando `Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass` e tentar novamente.
 
-## Passo 04: Instalar as dependências do Projeto
+## Passo 05: Instalar as dependências do Projeto
 
-Com o ambiente virtual ativado, instale as dependências
+Com o ambiente virtual ativado, instale as dependências:
 
 ```
 pip install -r requirements.txt
