@@ -12,7 +12,7 @@ Antes de começar, verifique se você tem os seguintes pré-requisitos instalado
 
 ## Passo 01: Clonar o Repositório
 
-- Clonar o repositório do projeto para a sua máquina local, atráves do CMD
+- Clonar o repositório do projeto para a sua máquina local, atráves do PowerShell
 
 ```
 git clone https://github.com/caio-machado-dev/GrowUP_PortoDigital_Bonsae.git
