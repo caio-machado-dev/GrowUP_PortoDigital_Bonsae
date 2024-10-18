@@ -1,4 +1,4 @@
-# Grow UP Porto Digital
+# GrowUP Porto Digital
 
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM+DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
  
@@ -57,7 +57,5 @@ python .\manage.py runserver
 
 ## Passo 07: Acessar o Localhost no Navegador
 
-```
 *A URL ESTARÁ LOCALIZADA NO SEU TERMINAL*
 
-```
