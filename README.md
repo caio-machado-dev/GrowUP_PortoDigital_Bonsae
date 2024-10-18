@@ -45,4 +45,19 @@ Com o ambiente virtual ativado, instale as dependências:
 
 ```
 pip install -r requirements.txt
+
+```
+
+## Passo 06: Execute o Servidor
+
+```
+python .\manage.py runserver
+
+```
+
+## Passo 07: Acessar o Localhost no Navegador
+
+```
+**A URL ESTARÁ LOCALIZADA NO SEU TERMINAL**
+
 ```
