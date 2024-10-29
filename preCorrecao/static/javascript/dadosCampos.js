@@ -87,11 +87,11 @@ form.addEventListener('submit', async (e) => {
 
     // Exibe apenas o texto da resposta no HTML
     const responseContent = document.getElementById('responseContent');
-    responseContent.textContent = result.resultado;
-
-    // Torna o container visível
     const responseContainer = document.getElementById('responseContainer');
-    responseContainer.style.visibility = 'visible';
+
+    responseContent.textContent = result.resultado;
+    // Torna o container visível
+    responseContainer.classList.add('visible');
     responseContainer.style.display = 'block';
 
   } catch (error) {

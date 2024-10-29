@@ -59,9 +59,10 @@ def precorrecao_view(request):
             "De acordo com os dados presentes no arquivo JSON abaixo, "
             "compare com o arquivo anexado e corrija com base nos principais "
             "requisitos de uma petição inicial.\n\n"
-            f"Dados do JSON: {json.dumps(data, indent=4)}\n\n"
+            f"Dados do JSON: {json.dumps(data, indent=4)}\n\n" 
             f"Conteúdo do Arquivo: {arquivo_texto}"
             "Trate essa correção como se fosse um professor. Apenas traga sua análise"
+            # Melhorar o prompt / OBS: Passar mais informações específicas
         )
         
         try:
