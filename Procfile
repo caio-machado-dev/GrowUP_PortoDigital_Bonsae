@@ -1,1 +1,1 @@
-web: gunicorn GROWUP_PORTODIGITAL_BONSAE.wsgi:application
+web: gunicorn setup.wsgi:application
